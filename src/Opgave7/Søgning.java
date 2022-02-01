@@ -16,7 +16,7 @@ public class Søgning {
         list.add("Pære");
         list.add("Kat");
         list.add("Hund");
-        String word = "Banan";
+        String word = "Kat";
 
         System.out.println("index position: " + soeg.search(list,word));
     }
