@@ -14,6 +14,7 @@ public class Kvadrat {
             }
             amount2--;
         }
+
         while(amount > 0){
             System.out.println(width);
             amount--;

@@ -22,4 +22,9 @@ public class ProperCase {
         return result;
     }
 
+    public static void main(String[] args){
+        ProperCase prop = new ProperCase();
+        String word = "ABEKaT";
+        System.out.println(prop.metode(word));
+    }
 }

@@ -17,9 +17,9 @@ public class Grass {
     public static void main(String[] args){
         Grass grass = new Grass();
         Scanner sc = new Scanner(System.in);
-        System.out.print("Hvor langt er græsset nu?");
+        System.out.print("Hvor langt er græsset nu? ");
         double currentLength = sc.nextDouble();
-        System.out.print("Hvor langt må græsset være?");
+        System.out.print("Hvor langt må græsset være? ");
         double maxLength = sc.nextDouble();
 
         System.out.println("Græsset skal slås om " + grass.whenToCutGrass(currentLength, maxLength) + " dag(e).." );
