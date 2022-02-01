@@ -4,6 +4,7 @@ public class Kvadrat {
 
     public void printSquare(int amount, char sign){
         String width = "";
+        int amount1 = amount;
         int amount2 = amount;
 
         while(amount2 > 0){
@@ -15,9 +16,9 @@ public class Kvadrat {
             amount2--;
         }
 
-        while(amount > 0){
+        while(amount1 > 0){
             System.out.println(width);
-            amount--;
+            amount1--;
         }
     }
 
